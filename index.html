@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+    <script src="./canvas.js" defer></script>
+    <title>PedroLucasCG - Portifólio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Portifólio</h1>
+            <ul>
+                <li><a href="#"><img src="./assets/icons/profile.svg" alt="icone sobre mim"></a></li>
+                <li><a href="#"><img src="./assets/icons/document.svg" alt="icone meus trabalhos"></a></li>
+                <li><a href="#"><img src="./assets/icons/hashtag.svg" alt="icone minhas redes sociais"></a></li>
+                <li><img src="./assets/icons/list.svg" alt="abrir menu mobile"></li>
+            </ul>
+        </nav>
+        <div class="dropdown hide">
+            <ul>
+                <li><a href="#"><img src="./assets/icons/profile.svg" alt="icone sobre mim para mobile"></a></li>
+                <li><a href="#"><img src="./assets/icons/document.svg" alt="icone meus trabalhos para mobile"></a></li>
+                <li><a href="#"><img src="./assets/icons/hashtag.svg" alt="icone minhas redes sociais para mobile"></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!--Banner-->
+        <section>
+            <div class="backgroundText">
+                <h2>Do banco de dados até o pixel. Eu trabalho para tornar ideias em realidade.</h2>
+            </div>
+            <div class="hint">Click to spawn a sphere • Drag = give it a push • Double-click to clear</div>
+            <canvas id="canvas">
+                Your browser does not support the canvas tag.
+            </canvas>
+        </section>
+        <!--About Me-->
+        <section>
+            <div class="aboutMe">
+                <div class="picture">
+                    <div class="overlay"><img src="./assets/icons/profile.svg" alt="icone da janela que cobre a foto"></div>
+                    <img src="./assets/img/profilePic.png" alt="minha foto de perfil">
+                </div>
+                <div class="summary-card" lang="pt-br">
+                    <p class="lede">
+                        Desenvolvedor full stack com experiência em sistemas para RH, e-commerce e sites institucionais.
+                    </p>
+
+                    <ul class="summary-list">
+                        <li><strong>Stack:</strong> Node.js, JavaScript, Next.js, C#/.NET</li>
+                        <li><strong>APIs & Auth:</strong> RESTful, JWT</li>
+                        <li><strong>Banco de dados:</strong> SQL Server (Sequelize)</li>
+                        <li><strong>Relatórios:</strong> Stimulsoft</li>
+                        <li><strong>WordPress:</strong> Elementor, Yootheme</li>
+                        <li><strong>SEO:</strong> Rank Math</li>
+                        <li><strong>Arquitetura:</strong> SSR/SSG</li>
+                        <li><strong>Produtividade:</strong> IA (Cursor)</li>
+                    </ul>
+
+                    <a href="./assets/curriculo - Pedro Lucas Cardoso Goveia.pdf" target="_blank">
+                        <button class="neu-btn is-on strong" >
+                            <span>Ver Currículo</span>
+                        </button>
+                    </a>
+            </div>
+        </section>
+        <!--Projects-->
+        <section>
+            <div class="projectGallery">
+                <div class="card">
+                    <div class="preview">
+                        <img src="./assets/img/projects/wordpress/NerdCrates/print2.png" alt="print2">
+                    </div>
+                    <div class="content">
+                        <h3>NerdCrates</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quibusdam eveniet voluptas eum cumque.</p>
+                        <div class="tags">
+                            <span>Wordpress</span>
+                            <span>PHP</span>
+                            <span>WooCommerce</span>
+                            <span>Elementor</span>
+                        </div>
+                        <div class="completion">
+                            <div class="bar">
+                                <div class="fill" style="width: 40%"></div>
+                            </div>
+                            <span>78%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section></section>
+    </main>
+
+    <footer>
+        <section></section>
+        <section></section>
+        <section></section>
+    </footer>
+</body>
+</html>
