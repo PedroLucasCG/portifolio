@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <h1>Portifólio</h1>
+            <h1>Portifólio.</h1>
             <ul>
                 <li><a href="#"><img src="./assets/icons/profile.svg" alt="icone sobre mim"></a></li>
                 <li><a href="#"><img src="./assets/icons/document.svg" alt="icone meus trabalhos"></a></li>
@@ -39,38 +39,10 @@
                 Your browser does not support the canvas tag.
             </canvas>
         </section>
-        <!--About Me-->
-        <section>
-            <div class="aboutMe">
-                <div class="picture">
-                    <div class="overlay"><img src="./assets/icons/profile.svg" alt="icone da janela que cobre a foto"></div>
-                    <img src="./assets/img/profilePic.png" alt="minha foto de perfil">
-                </div>
-                <div class="summary-card" lang="pt-br">
-                    <p class="lede">
-                        Desenvolvedor full stack com experiência em sistemas para RH, e-commerce e sites institucionais.
-                    </p>
-
-                    <ul class="summary-list">
-                        <li><strong>Stack:</strong> Node.js, JavaScript, Next.js, C#/.NET</li>
-                        <li><strong>APIs & Auth:</strong> RESTful, JWT</li>
-                        <li><strong>Banco de dados:</strong> SQL Server (Sequelize)</li>
-                        <li><strong>Relatórios:</strong> Stimulsoft</li>
-                        <li><strong>WordPress:</strong> Elementor, Yootheme</li>
-                        <li><strong>SEO:</strong> Rank Math</li>
-                        <li><strong>Arquitetura:</strong> SSR/SSG</li>
-                        <li><strong>Produtividade:</strong> IA (Cursor)</li>
-                    </ul>
-
-                    <a href="./assets/curriculo - Pedro Lucas Cardoso Goveia.pdf" target="_blank">
-                        <button class="neu-btn is-on strong" >
-                            <span>Ver Currículo</span>
-                        </button>
-                    </a>
-            </div>
-        </section>
         <!--Projects-->
         <section>
+            <h1>Projetos.</h1>
+            <p>- Projetos com resumo, tecnologias usadas e progresso -</p>
             <div class="projectGallery">
                 <div class="card">
                     <div class="preview">
@@ -91,11 +63,85 @@
                             </div>
                             <span>78%</span>
                         </div>
+                        <a href="./assets/curriculo - Pedro Lucas Cardoso Goveia.pdf" target="_blank">
+                            <button class="neu-btn is-on strong" >
+                                <span>Acessar</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section></section>
+        <!--About Me-->
+        <section>
+            <h1>Sobre mim.</h1>
+            <p>- Experiência, tecnologias e resumo profissional -</p>
+            <div class="aboutMe">
+                <div class="picture">
+                    <div class="overlay"><img src="./assets/icons/profile.svg" alt="icone da janela que cobre a foto"></div>
+                    <img src="./assets/img/profilePic.png" alt="minha foto de perfil">
+                </div>
+                <div class="summary-card" lang="pt-br">
+                    <p class="lede">
+                        Desenvolvedor full stack com experiência em sistemas para RH, e-commerce e sites institucionais.
+                    </p>
+
+                    <ul class="summary-list">
+                        <li><strong>Stack:</strong> Node.js, JavaScript, Next.js, C#/.NET</li>
+                        <li><strong>APIs & Auth:</strong> RESTful, JWT</li>
+                        <li><strong>Banco de dados:</strong> SQL Server (Sequelize)</li>
+                        <li><strong>Relatórios:</strong> Stimulsoft</li>
+                        <li><strong>WordPress:</strong> Elementor, Yootheme</li>
+                        <li><strong>SEO:</strong> Rank Math</li>
+                        <li><strong>Arquitetura:</strong> SSR/SSG</li>
+                        <li><strong>Produtividade:</strong> IA (Cursor)</li>
+                    </ul>
+                    <p class="lede">
+                        Desenvolvedor full stack com experiência em projetos de sistemas para RH, e-commerce e
+                        websites institucionais. Atuação com tecnologias como Node.js, JavaScript, Next.js, e C#
+                        .NET. Experiência na criação de APIs RESTful, autenticação com JWT, integração com banco
+                        de dados SQL Server via Sequelize e geração de relatórios com Stimulsoft. Habilidade em
+                        SEO com Rank Math, WordPress (Elementor/Yootheme) e aplicações modernas com SSR.
+                        Entusiasta de ferramentas de produtividade com IA, como o Cursor.
+                    </p>
+
+                    <a href="./assets/curriculo - Pedro Lucas Cardoso Goveia.pdf" target="_blank">
+                        <button class="neu-btn is-on strong" >
+                            <span>Ver Currículo</span>
+                        </button>
+                    </a>
+            </div>
+        </section>
+        <!--Contato-->
+        <section>
+            <h1>Contato.</h1>
+            <p>- Envie um e-mail e cheque minhas redes sociais -</p>
+            <div class="contact">
+                <div class="socialMedia">
+                    <div>
+                        <div class="icon"><img src="./assets/icons/github.svg" alt="meu perfil no GitHub"></div>
+                        <span>GitHub</span>
+                    </div>
+                    <div>
+                        <div class="icon"><img src="./assets/icons/linkedin.svg" alt="meu perfil no LinkedIn"></div>
+                        <span>LinkedIn</span>
+                    </div>
+                    <div>
+                        <div class="icon"><img src="./assets/icons/whatsapp.svg" alt="meu contato via WhatsApp"></div>
+                        <span>WhatsApp</span>
+                    </div>
+                </div>
+                <div class="email">
+                    <h2>Gostou do que viu? <br>Me envie um e-mail!</h2>
+                    <p>Envie um e-mail por aqui ou entre em contato pelo endereço de e-mail: <br> <strong>contatopedrolucascg@gmail.com</strong></p>
+                    <div class="form">
+                        <label for="emailContent">Escreva sua proposta:</label>
+                        <textarea id="emailContent" placeholder="Olá meu nome é <seu nome> e tenho a seguinte proposta..."></textarea>
+                        <button class="neu-btn is-on strong">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
