@@ -267,7 +267,7 @@ section:has(.aboutMe):hover .overlay{
 }
 
 section:has(.aboutMe) {
-    height: 100vh
+    height: 90vh
 }
 
 .aboutMe .overlay img {
@@ -606,16 +606,6 @@ section > p {
         overflow: unset;
     }
 
-    .aboutMe .overlay, .aboutMe img, .aboutMe .picture > img:last-of-type {
-        height: unset;
-        width: 100%;
-    }
-
-    .aboutMe .picture {
-        width: fit-content;
-        margin: 0 auto;
-    }
-
     .projectGallery {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
@@ -624,13 +614,21 @@ section > p {
         border-radius: 15px 15px 0 0px;
     }
 
+    .aboutMe {
+        flex-direction: column;
+    }
+
+    .aboutMe .overlay, .aboutMe img {
+        width: 100%;
+    }
+
     .card {
         flex-direction: column;
         padding-bottom: 1rem;
     }
 
     section:has(.contact) {
-        margin-top: 40rem;
+        margin-top: 60rem;
     }
     .contact{
         width: 80%;
