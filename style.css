@@ -267,7 +267,7 @@ section:has(.aboutMe):hover .overlay{
 }
 
 section:has(.aboutMe) {
-    height: 90vh
+    height: 75vh
 }
 
 .aboutMe .overlay img {
